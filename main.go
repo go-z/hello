@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"golang.org/x/tour/reader"
 )
 
 // var python, java bool
@@ -44,5 +42,19 @@ func main() {
 	} */
 	/* fmt.Println(Sqrt(2))
 	fmt.Println(Sqrt(-2)) */
-	reader.Validate(MyReader{})
+	// reader.Validate(MyReader{})
+	/* s := strings.NewReader("Lbh penpxrq gur pbqr!")
+	r := rot13Reader{s}
+	io.Copy(os.Stdout, &r) */
+	/* m := Image{}
+	pic.ShowImage(m) */
+	/* ch := make(chan int, 10)
+	go Walk(tree.New(1), ch)
+	for i := 0; i < 10; i++ {
+		fmt.Println(<-ch)
+	} */
+	// fmt.Println(Same(tree.New(1), tree.New(2)))
+
+	Crawl("https://golang.org/", 4, fetcher)
+
 }
